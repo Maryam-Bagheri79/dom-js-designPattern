@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../font/Vazir.woff);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #3d51b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "vazir";
+  direction: rtl;
+}
+
+.main {
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.hedear {
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #f7f7f7;
+  padding: 18px 40px;
+  border-radius: 5px;
+}
+
+.form {
+  padding: 15px 35px;
+}
+
+.form button {
+  width: 100%;
+  background-color: #3d51b5;
+  color: #fff;
+  padding: 5px 0;
+  border-radius: 5px;
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  padding: 10px 0;
+  cursor: pointer;
+  margin: 10px 0;
+  margin-top: 25px !important;
+}
+
+.form-div {
+  margin-bottom: 7px;
+  padding-bottom: 15px;
+}
+
+.form-div input {
+  width: 100%;
+  border: 2px solid #d8d8d8;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 11px;
+  direction: rtl;
+}
+
+.form-div label {
+  direction: rtl;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.form-div input:focus {
+  outline: none;
+  border-color: #9fa8da;
+}
+
+.div-table {
+  background-color: white;
+  margin: 20px auto;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 40px 18px;
+}
+/*# sourceMappingURL=main.css.map */
